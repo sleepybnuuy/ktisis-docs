@@ -1,5 +1,7 @@
 # Environment Editor
 
+![Environment Editor Button](../assets/screenshots/environment-0.png){ align=left width=200 }
+
 At any time during posing, the **Environment Editor** allows you to temporarily change the surrounding world state in a variety of ways. These changes will be reverted to the true state when exiting GPose.
 
 Weather can be modified freely with the main dropdown from choices available to your current zone, while Time & Day + Date require freezing time using the Lock button.
