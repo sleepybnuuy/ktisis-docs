@@ -24,6 +24,11 @@ theme:
   logo: assets/icon.png
   favicon: assets/icon.png
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 # any navigable new pages must be added to nav for manual sorting
 nav:
   - Home: index.md
