@@ -1,4 +1,5 @@
 site_name: Ktisis Docs
+site_url: https://sleepybnuuy.github.io/ktisis-docs/
 repo_url: https://github.com/sleepybnuuy/ktisis-testing
 repo_name: sleepybnuuy/ktitis-testing
 
@@ -26,6 +27,7 @@ theme:
 # any navigable new pages must be added to nav for manual sorting
 nav:
   - Home: index.md
+  - FAQ: faq.md
   - Windows:
     - Workspace: windows/workspace.md
     - Actor Editor: windows/actor.md
