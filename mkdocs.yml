@@ -26,8 +26,11 @@ theme:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.blocks.caption
 
 # any navigable new pages must be added to nav for manual sorting
 nav:
