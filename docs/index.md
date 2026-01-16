@@ -31,10 +31,50 @@ Known gaps in info or pages that need writing/improvement will be listed in the 
 You can reach us for further discussion in the #ktisis-docs channel of the official Discord.
 
 ### TODO
-- Missing Guides/Walkthroughs section
-- Missing FAQs
-- Need a Posing section
-- Need a Scene Composition section
+
+Rough draft sitemap:
+
+```
+Home
+FAQ
+
+Posing:
+    Overlay Controls (bones, presets, offsets, entity nodes)
+    Pose Mode (unique capabilities - flip pose, apply/stash, reference poses, pose expressions - plus I/O)
+    IK Usage
+
+Actors:
+    Actor Management
+    Animation
+    Gaze Control
+    IPC Support (penumbra, glamourer, c+, MCDF)
+
+Scene:
+    Lighting
+    Camera Controls
+    *Secret Feature #1
+    *Secret Feature #2
+
+Windows:
+    Workspace
+    Actor Editor
+    Environment Editor
+    Camera Editor
+    Pose View
+    Configuration
+
+Guides:
+    Migrating to v0.3
+    GPosing Tips
+    Lighting Crash Course
+    Gizmo & Transform Usage
+    Community Resources (links to additional guides, utility spreadsheets)
+    Tools (links to other plugins, reshade/gposingway?, useful simpletweaks etc)
+
+Known Issues
+Updates (plugin & wiki changelogs)
+About (readme, socials links, docs contributors)
+```
 
 ### Changelog
 - 1/14/26: first draft

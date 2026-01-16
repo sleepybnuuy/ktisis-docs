@@ -1,5 +1,7 @@
 site_name: Ktisis Docs
 site_url: https://sleepybnuuy.github.io/ktisis-docs/
+site_description: Documentation wiki for the Ktisis GPose plugin.
+
 repo_url: https://github.com/sleepybnuuy/ktisis-testing
 repo_name: sleepybnuuy/ktitis-testing
 
@@ -18,10 +20,7 @@ theme:
         name: Switch to light mode
       primary: deep purple
       accent: purple
-  features:
-    - navigation.expand
-    - navigation.path
-  logo: assets/icon.png
+  logo: assets/icon2.png
   favicon: assets/icon.png
 
 markdown_extensions:
@@ -32,12 +31,39 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.blocks.caption
 
+plugins:
+  - social
+
 # any navigable new pages must be added to nav for manual sorting
 nav:
   - Home: index.md
   - FAQ: faq.md
+  - Posing:
+    - Overlay Controls: posing/overlay.md
+    - Pose Mode: posing/posemode.md
+    - Inverse Kinematics: posing/ik.md
+  - Actors:
+    - Actor Management: actors/manage.md
+    - Animation: actors/animation.md
+    - Gaze Control: actors/gaze.md
+    - IPC Support: actors/ipc.md
+  - Scene:
+    - Lighting: scene/lighting.md
+    - Camera Controls: scene/camera.md
   - Windows:
-    - Workspace: windows/workspace.md
+    - Ktisis Workspace: windows/workspace.md
     - Actor Editor: windows/actor.md
     - Environment Editor: windows/environment.md
+    - Camera Editor: windows/camera.md
+    - Pose View: windows/poseview.md
     - Settings: windows/config.md
+  - Guides:
+    # - Migrating to v0.3: guides/migration.md
+    # - GPosing Tips: guides/tips.md
+    # - Lighting 101: guides/lighting.md
+    # - Gizmo & Transform Usage: guides/transform.md
+    # - Community Resources: guides/resources.md
+    - External Tools: guides/tools.md
+  - Known Issues: issues.md
+  - Updates: updates.md
+  - About: about.md

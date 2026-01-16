@@ -1,3 +1,7 @@
+---
+description: FAQ for commonly-asked questions & concerns about Ktisis.
+---
+
 # Frequently Asked Questions
 
 ## How do I install Ktisis v0.3?
